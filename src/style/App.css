@@ -1,0 +1,111 @@
+.movieItem,
+.trailerContainer {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.movieInfoTitle,
+.movieInfoBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.movieInfoContainer {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px !important;
+}
+
+.trailerContainer,
+.movieInfoContainer,
+.searchResult {
+  background-color: #393e46;
+}
+
+.searchContainer {
+  max-height: 10vh;
+}
+
+.movieItemImg:hover {
+  height: 45vh;
+}
+
+.header {
+  height: 8rem;
+}
+
+.imgContainer,
+.headerLogo,
+.searchResultImg {
+  height: 100%;
+}
+
+.player {
+  padding: 20px;
+}
+
+.baseHeight {
+  height: 35vh;
+}
+
+.searchResultContainer {
+  max-height: 40vh !important;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.searchResult {
+  z-index: 1;
+  position: relative;
+  border: 1px solid #993e25;
+  height: 10vh;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.searchResult:hover {
+  background-color: #222831;
+}
+
+.searchResultTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.searchResultOV {
+  font-size: 11px;
+  overflow: hidden;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.activeHeaderButton {
+  color: #993e25 !important;
+  font-size: 25px;
+}
+
+.inActiveHeaderButton {
+  color: #eeeeee !important;
+  font-size: 25px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.listItem {
+  padding: 25px;
+}
