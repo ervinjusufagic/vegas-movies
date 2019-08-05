@@ -78,7 +78,7 @@ class Dashboard extends Component {
   }
 
   fetchMovieDetails(arrayId, ids) {
-    console.log(ids);
+
     apolloFetch({
       query: `query movies($ids: [Int]!){
           movies(ids: $ids){
@@ -114,7 +114,7 @@ class Dashboard extends Component {
         `,
       variables: { ids }
     }).then(res => {
-      console.log(res);
+   
       this.filterMovies(res.data.movies, arrayId);
     });
   }
@@ -154,7 +154,7 @@ class Dashboard extends Component {
       });
     }
     if (arrayId === "searchResult") {
-      console.log(filteredMovies);
+
       this.props.setSearchMovie(null);
       this.props.toggleModal(true, filteredMovies[0], "search");
     }

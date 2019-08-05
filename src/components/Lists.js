@@ -3,9 +3,6 @@ import React, { Component } from "react";
 import { Tabs } from "antd";
 import List from "./List";
 class Lists extends Component {
-  componentWillMount() {
-    console.log(this.props);
-  }
 
   render() {
     return (
