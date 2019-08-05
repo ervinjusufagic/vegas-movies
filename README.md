@@ -12,7 +12,7 @@ The app wont run without the api that can be found here: https://github.com/ervi
 * Sometimes the application breaks on load/reload.
 * Getting null values of movies that I know exist.
 * Lists not rendering all movies because I get null values of movies that shouldn’t get null values.
-* Searchbar is not working for the first 5 seconds of after load.
+* Searchbar is not working for the first 5 seconds after load.
 * Searchbar is moving when displaying the results.
 * Fix the date displayed in detailed view.
 * Add feedback when clicking ”Add to favourites” or ”watch later”.
