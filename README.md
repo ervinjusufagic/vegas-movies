@@ -1,5 +1,5 @@
 
-## A homepage for your browser built with React.
+## Vegas Movies
 
 ## Get started
 Clone the project
