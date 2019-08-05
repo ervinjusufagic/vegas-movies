@@ -16,5 +16,6 @@ The app wont run without the api that can be found here: https://github.com/ervi
 * Searchbar is moving when displaying the results.
 * Fix the date displayed in detailed view.
 * Add feedback when clicking ”Add to favourites” or ”watch later”.
+* Implement check so that you cant add same movies to list 
 * Fix how I close the detailed view on homepage.
 * Implement users.
